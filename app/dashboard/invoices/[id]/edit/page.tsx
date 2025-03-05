@@ -4,7 +4,7 @@ import { fetchInvoiceById, fetchCustomers } from "@/app/lib/data";
 import { notFound } from "next/navigation";
 
 import { Metadata } from "next";
-
+// metadata is used to set the title of the page
 const metadata: Metadata = {
   title: "Login",
 };
